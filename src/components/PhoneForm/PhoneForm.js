@@ -119,7 +119,7 @@ class PhoneForm extends Component {
 				{
 					repeatedType ? 
 					<Alert color="danger">
-						There can't be more than one type of number!
+						There can't be duplicated phone types!
 					</Alert>:
 					null
 				}
