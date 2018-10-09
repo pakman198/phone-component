@@ -12,7 +12,7 @@ class PhoneField extends Component {
 	static propTypes = {
 		index: PropTypes.number,
 		onDelete: PropTypes.func,
-		onInputChange: PropTypes.fun,
+		onInputChange: PropTypes.func,
 		onSelectChange: PropTypes.func
 	}
 
